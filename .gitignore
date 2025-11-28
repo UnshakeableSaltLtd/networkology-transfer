@@ -3,11 +3,6 @@
 .AppleDouble
 .LSOverride
 ._*
-
-# macOS resource forks
-*.orig.swp
-
-# macOS Finder files
 .Spotlight-V100
 .Trashes
 .fseventsd
