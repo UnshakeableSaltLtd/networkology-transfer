@@ -1,0 +1,15 @@
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Hidden files (files starting with .)
+# Note: Specific hidden files needed for git are allowed (.gitignore, .gitattributes, .gitkeep)
+.*
+!.gitignore
+!.gitattributes
+!.gitkeep
