@@ -1,2 +1,3 @@
-# networkology-transfer
-Private repository for data transfer
+# Networkology Transfer
+
+Gihub repository for data, binary and code transfer
