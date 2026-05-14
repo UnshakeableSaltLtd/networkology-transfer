@@ -4,14 +4,23 @@ Gihub repository for data, binary and code transfer
 
 As an open repo, all files are to be anonymised and password protected. For cross operating system support, unless specified AES-256 should not be used for ZIP protection.
 
+## GIT LFS additional support
+
+Via command line,  as VSCode is/was having issues with LFS Support
+
+``` code
+git add binaries/s*
+git lfs ls-files
+git commit -m "Add large files tracked by LFS"
+git push origin main
+```
+
 ## PGP Public Key
 
 Files being transferred inbound can be PGP/GPG encrypted and the [infosec@unshakeablesalt.com](infosec@unshakeablesalt.com) PGP public key is given below, which can be verified from global key servers.
 
 ``` shell
-
 -----BEGIN PGP PUBLIC KEY BLOCK-----
-
 mQINBGQioWABEAC2yOS+4p/TJNks1cErp+q5crA/IvP52C7g8d1q/iLAUWLA6k1A
 tmBsQD41RrFXZRUSe1UHv7m4BTslqtHzXYy8xF7TS18pfkWyMTP9vx9rnnF/VtvZ
 MX7y7stpnwAK4ApQtNMr6oSBhaYVosqy5tWpUS44SZJp8jRz0sHnDj9psQB2a6Ft
