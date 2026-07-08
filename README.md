@@ -9,7 +9,7 @@ As an open repo, all files are to be anonymised and password protected. For cros
 Via command line,  as VSCode is/was having issues with LFS Support
 
 ``` code
-git add binaries/s*
+git add binaries/*
 git lfs ls-files
 git commit -m "Add large files tracked by LFS"
 git push origin main
